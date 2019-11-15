@@ -26,7 +26,7 @@ xhr.onload = function() {                       // When readystate changes
   //}
 };
 
-xhr.open('GET', 'data/data.json', true);        // Prepare the request
+xhr.open('GET', 'data.json', true);        // Prepare the request
 xhr.send(null);                                 // Send the request
 
 // When working locally in Firefox, you may see an error saying that the JSON is not well-formed.
